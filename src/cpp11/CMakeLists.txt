@@ -1,0 +1,6 @@
+add_subdirectory(01_basic_syntax_object_model)
+add_subdirectory(02_type_deduction_interface)
+add_subdirectory(03_resource_management_value_semantics)
+add_subdirectory(04_compile_time_template_basic)
+add_subdirectory(05_callable_function_wrapper)
+add_subdirectory(06_concurrency_chrono)

@@ -1,0 +1,5 @@
+add_executable(cpp11_03_resource_management_value_semantics
+    main.cpp
+)
+
+target_compile_features(cpp11_03_resource_management_value_semantics PRIVATE cxx_std_20)
