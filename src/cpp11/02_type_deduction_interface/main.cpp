@@ -1,32 +1,9 @@
 #include <iostream>
 
-namespace cpp11::lesson02 {
-
-void demo_auto()
-{
-    // TODO: write auto practice code.
-    std::cout << "demo_auto placeholder\n";
-}
-
-void demo_decltype()
-{
-    // TODO: write decltype practice code.
-    std::cout << "demo_decltype placeholder\n";
-}
-
-void demo_using_alias()
-{
-    // TODO: write using alias practice code.
-    std::cout << "demo_using_alias placeholder\n";
-}
-
-void demo_lambda()
-{
-    // TODO: write lambda practice code.
-    std::cout << "demo_lambda placeholder\n";
-}
-
-} // namespace cpp11::lesson02
+#include "01_auto.h"
+#include "02_decltype.h"
+#include "03_using_alias.h"
+#include "04_lambda.h"
 
 int main()
 {

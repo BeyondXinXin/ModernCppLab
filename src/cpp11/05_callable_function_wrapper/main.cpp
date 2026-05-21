@@ -1,20 +1,7 @@
 #include <iostream>
 
-namespace cpp11::lesson05 {
-
-void demo_std_function()
-{
-    // TODO: write std::function practice code.
-    std::cout << "demo_std_function placeholder\n";
-}
-
-void demo_std_bind()
-{
-    // TODO: write std::bind practice code.
-    std::cout << "demo_std_bind placeholder\n";
-}
-
-} // namespace cpp11::lesson05
+#include "01_std_function.h"
+#include "02_std_bind.h"
 
 int main()
 {

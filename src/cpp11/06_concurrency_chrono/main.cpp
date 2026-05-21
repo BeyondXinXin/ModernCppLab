@@ -1,68 +1,15 @@
 #include <iostream>
 
-namespace cpp11::lesson06 {
-
-void demo_thread()
-{
-    // TODO: write std::thread practice code.
-    std::cout << "demo_thread placeholder\n";
-}
-
-void demo_mutex()
-{
-    // TODO: write std::mutex practice code.
-    std::cout << "demo_mutex placeholder\n";
-}
-
-void demo_lock_guard()
-{
-    // TODO: write std::lock_guard practice code.
-    std::cout << "demo_lock_guard placeholder\n";
-}
-
-void demo_unique_lock()
-{
-    // TODO: write std::unique_lock practice code.
-    std::cout << "demo_unique_lock placeholder\n";
-}
-
-void demo_condition_variable()
-{
-    // TODO: write std::condition_variable practice code.
-    std::cout << "demo_condition_variable placeholder\n";
-}
-
-void demo_future()
-{
-    // TODO: write std::future practice code.
-    std::cout << "demo_future placeholder\n";
-}
-
-void demo_promise()
-{
-    // TODO: write std::promise practice code.
-    std::cout << "demo_promise placeholder\n";
-}
-
-void demo_async()
-{
-    // TODO: write std::async practice code.
-    std::cout << "demo_async placeholder\n";
-}
-
-void demo_atomic()
-{
-    // TODO: write std::atomic practice code.
-    std::cout << "demo_atomic placeholder\n";
-}
-
-void demo_chrono()
-{
-    // TODO: write std::chrono practice code.
-    std::cout << "demo_chrono placeholder\n";
-}
-
-} // namespace cpp11::lesson06
+#include "01_thread.h"
+#include "02_mutex.h"
+#include "03_lock_guard.h"
+#include "04_unique_lock.h"
+#include "05_condition_variable.h"
+#include "06_future.h"
+#include "07_promise.h"
+#include "08_async.h"
+#include "09_atomic.h"
+#include "10_chrono.h"
 
 int main()
 {

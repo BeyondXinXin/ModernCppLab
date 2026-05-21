@@ -1,50 +1,12 @@
 #include <iostream>
 
-namespace cpp11::lesson03 {
-
-void demo_unique_ptr()
-{
-    // TODO: write std::unique_ptr practice code.
-    std::cout << "demo_unique_ptr placeholder\n";
-}
-
-void demo_shared_ptr()
-{
-    // TODO: write std::shared_ptr practice code.
-    std::cout << "demo_shared_ptr placeholder\n";
-}
-
-void demo_weak_ptr()
-{
-    // TODO: write std::weak_ptr practice code.
-    std::cout << "demo_weak_ptr placeholder\n";
-}
-
-void demo_rvalue_reference()
-{
-    // TODO: write rvalue reference practice code.
-    std::cout << "demo_rvalue_reference placeholder\n";
-}
-
-void demo_move_semantics()
-{
-    // TODO: write move semantics practice code.
-    std::cout << "demo_move_semantics placeholder\n";
-}
-
-void demo_std_move()
-{
-    // TODO: write std::move practice code.
-    std::cout << "demo_std_move placeholder\n";
-}
-
-void demo_std_forward()
-{
-    // TODO: write std::forward practice code.
-    std::cout << "demo_std_forward placeholder\n";
-}
-
-} // namespace cpp11::lesson03
+#include "01_unique_ptr.h"
+#include "02_shared_ptr.h"
+#include "03_weak_ptr.h"
+#include "04_rvalue_reference.h"
+#include "05_move_semantics.h"
+#include "06_std_move.h"
+#include "07_std_forward.h"
 
 int main()
 {
